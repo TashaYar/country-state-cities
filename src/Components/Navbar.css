@@ -1,0 +1,51 @@
+.container-nav {
+  padding-inline: 5rem;
+  background-color: #7fb3d5;
+}
+
+.nav-cont {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+.secondary {
+  display: flex;
+  flex-direction: row;
+
+  margin-left: auto;
+  padding-right: 5rem;
+}
+.primary {
+  display: flex;
+  flex-direction: row;
+  padding-left: 5rem;
+}
+.earth-logo {
+  align-self: center;
+  height: 3rem;
+}
+.github-logo {
+  height: 3rem;
+}
+@media (max-width: 768px) {
+  .container-nav {
+    padding-inline: 10px !important;
+    background-color: #7fb3d5;
+  }
+  .secondary {
+    margin-left: auto;
+    padding-right: 0px;
+  }
+  .secondary > p {
+    display: none;
+  }
+  .primary {
+    padding-left: 0px;
+  }
+  .earth-logo {
+    height: 2rem;
+  }
+  .github-logo {
+    height: 2rem;
+  }
+}
